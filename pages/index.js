@@ -8,7 +8,7 @@ import ouraStat from "../public/sleepStat.png";
 export default function Home() {
   return (
     <div className="relative bg-white">
-      <main className="lg:relative">
+      <div className="lg:relative 2xl:max-w-7xl 2xl:mx-auto">
         <div className="mx-auto max-w-7xl w-full py-16 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-500 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
@@ -19,16 +19,16 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <div className="relative w-full lg:absolute lg:inset-y-20 lg:right-0 lg:w-1/2 lg:h-96">
+        <div className="relative w-full lg:absolute lg:inset-y-20 lg:right-0 lg:w-1/2 lg:h-96 xl:h-full lg:overflow-hidden">
           <Image
-            className="absolute inset-0 w-full h-96 object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
             src={pic2}
             alt=""
           />
         </div>
-      </main>
+      </div>
 
-      <div className="bg-white pt-12">
+      <div className="bg-white pt-12 lg:pt-24 xl:mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold text-gray-500 sm:text-4xl">
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pt-16 bg-white overflow-hidden lg:py-24">
+      <div className="pt-16 bg-white overflow-hidden lg:pt-24">
         <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
           <div className="relative">
             <h2 className="text-center pb-10 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl">
@@ -83,14 +83,14 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="relative text-center mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div className="relative text-center mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center lg:h-64">
             <div className="relative">
-              <h3 className="text-2xl font-extrabold text-gray-500 tracking-tight sm:text-3xl">
+              <h3 className="text-2xl font-extrabold lg:text-left text-gray-500 tracking-tight sm:text-3xl">
                 Our world class mentors are
               </h3>
 
-              <dl className="mt-6 space-y-2">
-                <div className="relative px-10">
+              <dl className="mt-6 space-y-2 lg:text-left">
+                <div className="relative px-10 lg:px-4">
                   <dt>
                     <svg
                       class="absolute h-6 w-6 text-green-500"
@@ -113,7 +113,7 @@ export default function Home() {
                   </dt>
                 </div>
 
-                <div className="relative px-10">
+                <div className="relative px-10 lg:px-4">
                   <dt>
                     <svg
                       class="absolute h-6 w-6 text-green-500"
@@ -136,7 +136,7 @@ export default function Home() {
                   </dt>
                 </div>
 
-                <div className="relative px-10">
+                <div className="relative px-10 lg:px-4">
                   <dt>
                     <svg
                       class="absolute h-6 w-6 text-green-500"
@@ -162,7 +162,7 @@ export default function Home() {
             </div>
 
             <div
-              className="mt-10 relative w-full lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"
+              className="mt-10 relative w-full lg:mt-0 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"
               aria-hidden="true"
             >
               <Image
@@ -176,7 +176,7 @@ export default function Home() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 pt-16 sm:px-6 lg:py-16 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 pt-16 sm:px-6 lg:pt-24 lg:px-8">
           <div className="py-10 px-6 bg-blue-400 rounded-3xl sm:py-16 sm:px-12 lg:p-20 lg:flex lg:items-center">
             <div className="lg:w-0 lg:flex-1">
               <h2 className="text-3xl text-center font-extrabold tracking-tight text-white">
