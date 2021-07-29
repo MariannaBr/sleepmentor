@@ -7,19 +7,19 @@ import ouraStat from "../public/sleepStat.png";
 
 export default function Home() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-secondary-brown">
       <div className="lg:relative 2xl:max-w-7xl 2xl:mx-auto">
         <div className="mx-auto max-w-7xl w-full py-16 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-500 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+            <h1 className="text-4xl tracking-tight font-extrabold text-primary-blue sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span className="block xl:inline">Reclaim your sleep </span>
-              <span className="block text-blue-400 xl:inline">
+              <span className="block text-primary-blue xl:inline">
                 with a sleep mentor
               </span>
             </h1>
           </div>
         </div>
-        <div className="relative w-full lg:absolute lg:inset-y-20 lg:right-0 lg:w-1/2 lg:h-96 xl:h-full lg:overflow-hidden">
+        <div className="relative w-full h-full lg:absolute lg:inset-y-20 lg:right-0 lg:w-1/2 lg:h-96 xl:h-full lg:overflow-hidden">
           <Image
             className="absolute inset-0 w-full h-full object-cover"
             src={pic2}
@@ -28,40 +28,40 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white pt-12 lg:pt-24 xl:mt-24">
+      <div className="bg-primary-blue py-12 lg:py-24 xl:my-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-extrabold text-gray-500 sm:text-4xl">
-              80% of high-achivers are sleep deprived
+            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+              80% of high-achievers are sleep deprived
             </h2>
           </div>
         </div>
-        <div className="mt-10 bg-white">
+        <div className="mt-10 bg-primary-blue">
           <div className="relative">
             <div className="relative max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
               <div className="max-w-4xl mx-auto">
-                <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-                  <div className="flex flex-col border-b border-gray-100 p-4 text-center sm:border-0 sm:border-r">
-                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                <dl className="rounded-lg bg-secondary-brown shadow-lg sm:grid sm:grid-cols-3">
+                  <div className="flex flex-col border-b border-primary-blue p-4 text-center sm:border-0 sm:border-r">
+                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-primary-blue">
                       IQ Points
                     </dt>
-                    <dd className="order-1 text-4xl font-extrabold text-red-400">
+                    <dd className="order-1 text-4xl font-extrabold text-red-300">
                       -15
                     </dd>
                   </div>
-                  <div className="flex flex-col border-t border-b border-gray-100 p-4 text-center sm:border-0 sm:border-l sm:border-r">
-                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                  <div className="flex flex-col border-t border-b border-primary-blue p-4 text-center sm:border-0 sm:border-l sm:border-r">
+                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-primary-blue">
                       Testosterone
                     </dt>
-                    <dd className="order-1 text-4xl font-extrabold text-red-400">
+                    <dd className="order-1 text-4xl font-extrabold text-red-300">
                       -15%
                     </dd>
                   </div>
-                  <div className="flex flex-col border-t border-gray-100 p-4 text-center sm:border-0 sm:border-l">
-                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                  <div className="flex flex-col border-t border-primary-blue p-4 text-center sm:border-0 sm:border-l">
+                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-primary-blue">
                       Ability to burn fat
                     </dt>
-                    <dd className="order-1 text-4xl font-extrabold text-red-400">
+                    <dd className="order-1 text-4xl font-extrabold text-red-300">
                       -30%
                     </dd>
                   </div>
@@ -72,28 +72,28 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pt-16 bg-white overflow-hidden lg:pt-24">
+      <div className="pt-16 bg-secondary-brown overflow-hidden lg:pt-24">
         <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
           <div className="relative">
-            <h2 className="text-center pb-10 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl">
-              A sleep tracker gives you the data...
-            </h2>
-            <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-blue-400 sm:text-4xl">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-400 sm:text-4xl">
+              <span className="block">A sleep tracker gives you the data.</span>
+              <span className="block text-primary-blue">
               A sleep mentor helps you improve!
+              </span>
             </h2>
           </div>
 
-          <div className="relative text-center mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center lg:h-64">
+          <div className="relative text-left mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center lg:h-64">
             <div className="relative">
-              <h3 className="text-2xl font-extrabold lg:text-left text-gray-500 tracking-tight sm:text-3xl">
+              <h3 className="text-2xl font-extrabold text-left text-primary-blue tracking-tight sm:text-3xl">
                 Our world class mentors are
               </h3>
 
-              <dl className="mt-6 space-y-2 lg:text-left">
-                <div className="relative px-10 lg:px-4">
+              <dl className="mt-6 space-y-2 text-left">
+                <div className="relative ">
                   <dt>
                     <svg
-                      class="absolute h-6 w-6 text-green-500"
+                      className="absolute h-6 w-6 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -107,16 +107,16 @@ export default function Home() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <p class="ml-9 text-lg leading-6 font-medium text-gray-500">
+                    <p className="ml-9 text-lg leading-6 font-medium text-primary-blue">
                       Invite team members
                     </p>
                   </dt>
                 </div>
 
-                <div className="relative px-10 lg:px-4">
+                <div className="relative">
                   <dt>
                     <svg
-                      class="absolute h-6 w-6 text-green-500"
+                      className="absolute h-6 w-6 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -130,16 +130,16 @@ export default function Home() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <p class="ml-9 text-lg leading-6 font-medium text-gray-500">
+                    <p className="ml-9 text-lg leading-6 font-medium text-primary-blue">
                       Invite team members
                     </p>
                   </dt>
                 </div>
 
-                <div className="relative px-10 lg:px-4">
+                <div className="relative">
                   <dt>
                     <svg
-                      class="absolute h-6 w-6 text-green-500"
+                      className="absolute h-6 w-6 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -153,7 +153,7 @@ export default function Home() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <p class="ml-9 text-lg leading-6 font-medium text-gray-500">
+                    <p className="ml-9 text-lg leading-6 font-medium text-primary-blue">
                       Invite team members
                     </p>
                   </dt>
@@ -175,15 +175,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 pt-16 sm:px-6 lg:pt-24 lg:px-8">
-          <div className="py-10 px-6 bg-blue-400 rounded-3xl sm:py-16 sm:px-12 lg:p-20 lg:flex lg:items-center">
+      <div className="bg-primary-blue">
+        <div className="max-w-7xl mx-auto">
+          <div className="py-10 px-6 bg-primary-blue sm:py-16 lg:py-20 md:flex xl:items-center">
             <div className="lg:w-0 lg:flex-1">
-              <h2 className="text-3xl text-center font-extrabold tracking-tight text-white">
+              <h2 className="text-3xl text-center md:text-left font-extrabold tracking-tight text-secondary-brown">
                 Reclaim your sleep with SleepMentor
               </h2>
             </div>
-            <div className="mt-8 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
+            <div className="mt-8 mx-auto sm:w-full sm:max-w-md md:mt-0 md:ml-4 lg:ml-8 lg:flex-1">
               <form className="sm:flex">
                 <label for="email-address" className="sr-only">
                   Email address
@@ -193,19 +193,22 @@ export default function Home() {
                   name="email-address"
                   type="email"
                   autocomplete="email"
-                  className="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-400 focus:ring-white rounded-md"
+                  className="w-full border-white px-5 py-3 placeholder-primary-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-400 focus:ring-white rounded-md"
                   placeholder="Enter your email"
                 ></input>
                 <button
                   type="submit"
-                  className="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-blue-400 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+                  className="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-500 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-blue-400 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
                 >
                   Notify me
                 </button>
               </form>
-              <p className="mt-3 text-sm text-gray-500">
+              <p className="mt-3 text-sm text-secondary-brown">
                 We care about the protection of your data. Read our{" "}
-                <a href="#" className="text-gray-600 font-medium underline">
+                <a
+                  href="#"
+                  className="text-secondary-brown font-medium underline"
+                >
                   Privacy Policy.
                 </a>
               </p>
@@ -216,10 +219,10 @@ export default function Home() {
 
       {/* Footer */}
 
-      <footer className="bg-white">
+      <footer className="bg-secondary-brown">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href="#" className="text-primary-blue hover:text-gray-500">
               <span className="sr-only">Facebook</span>
               <svg
                 className="h-6 w-6"
@@ -235,7 +238,7 @@ export default function Home() {
               </svg>
             </a>
 
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href="#" className="text-primary-blue hover:text-gray-500">
               <span className="sr-only">Instagram</span>
               <svg
                 className="h-6 w-6"
@@ -251,7 +254,7 @@ export default function Home() {
               </svg>
             </a>
 
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href="#" className="text-primary-blue hover:text-gray-500">
               <span className="sr-only">Twitter</span>
               <svg
                 className="h-6 w-6"
@@ -264,7 +267,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-8 md:mt-0 md:order-1">
-            <p className="text-center text-base text-gray-400">
+            <p className="text-center text-base text-primary-blue">
               &copy; 2021 SleepMentor, Inc. All rights reserved.
             </p>
           </div>
@@ -273,4 +276,3 @@ export default function Home() {
     </div>
   );
 }
-
