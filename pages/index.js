@@ -3,7 +3,12 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import pic1 from "../public/sleep2.svg";
 import doctor from "../public/doctor.jpg";
-import ouraStat from "../public/sleepStat.png";
+import doctor2 from "../public/doctor2.svg";
+import doctor3 from "../public/humberto-chavez-FVh_yqLR9eA-unsplash.jpg";
+import doctor4 from "../public/doctor5.svg";
+import ouraStat from "../public/graph.svg";
+import certi1 from "../public/certification1.svg";
+import certi2 from "../public/certification2.svg";
 
 export default function Home() {
   return (
@@ -77,44 +82,31 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white">
-        <div className="bg-white lg:pb-0 z-10 lg:relative">
-          <div className="lg:mx-auto lg:max-w-7xl lg:px-8 grid grid-cols-1 gap-8">
-            <div className="relative -mt-8 lg:-mt-14">
-              <div className="mx-auto max-w-md px-4 z-10 sm:max-w-7xl sm:px-6 lg:p-0 lg:h-full">
-                <div className="sm:inline-flex bg-white z-10 items-center rounded-xl shadow-xl overflow-hidden h-full">
-                  <Image
-                    className="absolute inset-0 w-full h-full object-cover"
-                    src={ouraStat}
-                    alt=""
-                  />
-                  <div className="sm:flex-1 sm:w-1/2 px-4 py-4 sm:px-8 xl:px-16">
-                    <h2 className="text-3xl text-center font-extrabold tracking-tight text-gray-400 md:text-4xl">
-                      <span className="block">
-                        A sleep tracker gives you the data.
-                      </span>
-                      <span className="block text-primary-blue">
-                        A sleep mentor helps you improve!
-                      </span>
-                    </h2>
-                  </div>
-                </div>
-              </div>
+      <div class="relative bg-white -mt-8 lg:-mt-14 max-w-xs sm:max-w-xl lg:max-w-3xl mx-auto text-center rounded-lg shadow-xl overflow-hidden z-10">
+        <div class="space-y-6 xl:space-y-10">
+          <Image className="w-full object-cover" src={ouraStat} alt="" />
+          <div class="space-y-2 pb-5 md:pb-8 xl:pb-14 px-5">
+            <div class="text-3xl md:text-4xl font-extrabold tracking-tight space-y-1">
+              <h3 class="text-gray-400">A sleep tracker gives you the data.</h3>
+              <p class="text-primary-blue">A sleep mentor helps you improve!</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center lg:h-64">
+      <div className="relative max-w-md md:max-w-2xl lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center lg:h-64">
         <div className="relative mx-auto">
-          <h3 className="text-2xl font-extrabold text-center text-primary-blue tracking-tight sm:text-3xl">
+          <h3 className="text-3xl font-extrabold text-center text-primary-blue tracking-tight sm:text-4xl">
             Our world class mentors are
           </h3>
 
-          <dl className="mt-6 ml-4 space-y-2 text-center">
+          <dl className="mt-6 ml-6 space-y-2 text-center">
             <div className="relative ">
               <dt>
-                <svg
+                <div className="flex justify-center h-20">
+                  <Image className="flex w-20 h-20 object-fill" src={certi1} alt="" />
+
+                  {/* <svg
                   className="absolute h-6 w-6 text-green-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -128,15 +120,40 @@ export default function Home() {
                     stroke-width="2"
                     d="M5 13l4 4L19 7"
                   />
-                </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-primary-blue">
-                  Invite team members
-                </p>
+                </svg> */}
+                  <div className="flex items-center text-lg leading-6 font-medium text-primary-blue">
+                  Spencer Institute
+                  </div>
+                </div>
               </dt>
             </div>
 
             <div className="relative">
-              <dt>
+            <dt>
+                <div className="flex justify-center h-20">
+                  <Image className="flex w-20 h-20 object-fill" src={certi2} alt="" />
+
+                  {/* <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg> */}
+                  <div className="flex items-center text-lg leading-6 font-medium text-primary-blue">
+                  Association of professional sleep consultants
+                  </div>
+                </div>
+              </dt>
+              {/* <dt>
                 <svg
                   className="absolute h-6 w-6 text-green-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +172,7 @@ export default function Home() {
                 <p className="ml-9 text-lg leading-6 font-medium text-primary-blue">
                   Invite team members
                 </p>
-              </dt>
+              </dt> */}
             </div>
 
             <div className="relative">
@@ -183,20 +200,17 @@ export default function Home() {
           </dl>
         </div>
 
-        <div
-          className="mt-10 relative text-center rounded-xl shadow-xl overflow-hidden w-full h-full lg:mt-0 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"
-          aria-hidden="true"
-        >
+        <div className=" w-64 h-48 sm:w-80 sm:h-60 object-cover shadow-lg rounded-lg my-8 mx-auto">
           <Image
-            className="absolute mx-auto w-full h-full object-cover"
-            src={doctor}
+            className="object-cover shadow-lg rounded-lg"
+            src={doctor4}
             alt=""
           />
         </div>
       </div>
 
       <div className="bg-primary-blue mt-10 md:mt-14">
-        <div className="max-w-7xl mx-auto text-center py-8 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="max-w-7xl mx-auto text-center py-8 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block text-gray-400">Reclaim your sleep</span>
             <span className="block text-white">with sleep mentor</span>
